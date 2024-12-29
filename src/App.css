@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.pokemonCardContainer{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  place-items: center;
+}
+
+.p-pagination{
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-pagination__flex{
+  display: flex;
+  justify-content: center;
+}
+
+.p-pagination__previous{
+  margin-right: 20px;
+}
+
+.c-btn{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  max-width: 200px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  color: white;
+  background-color: #5257a3;
+  border: 1px solid #5257a3;
+  border-radius: 9999px;
+  transition: all .3s;
+}
+.c-btn:hover{
+  color: #5257a3;
+  background-color: #fff;
+}
